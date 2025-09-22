@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post-it!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Creá tu nota</h1>
+    </header>
+    <div class="contenedor-form">
+        <textarea id="texto-nota" rows="4"></textarea>
+        <span id="mensaje-error" clase="texto-error"></span>
+        <button id="btn-nueva-nota">Crear</button>
+    </div>
+
+    <div class="contenedor-grid">
+        <div class="columna">Backlog</div>
+        <div class="columna">To do</div>
+        <div class="columna">Doing</div>
+        <div class="columna">Done</div>
+        <div class="tablero" id="backlog"></div>
+        <div class="tablero" id="toDo"></div>
+        <div class="tablero" id="Doing"></div>
+        <div class="tablero" id="Done"></div>
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
