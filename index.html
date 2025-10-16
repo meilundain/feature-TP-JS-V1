@@ -14,8 +14,13 @@
     </header>
     <div class="contenedor-form">
         <textarea id="texto-nota" rows="4"></textarea>
-        <span id="mensaje-error" clase="texto-error"></span>
         <button id="btn-nueva-nota">Crear</button>
+        <span id="mensaje-error" clase="texto-error"></span>
+    </div>
+
+    <div class="botones-accion">
+        <button id="mover-izq" class="btn-accion"><-</button>
+        <button id="mover-der" class="btn-accion">-></button>
     </div>
 
     <div class="contenedor-grid">
@@ -25,8 +30,8 @@
         <div class="columna">Done</div>
         <div class="tablero" id="backlog"></div>
         <div class="tablero" id="toDo"></div>
-        <div class="tablero" id="Doing"></div>
-        <div class="tablero" id="Done"></div>
+        <div class="tablero" id="doing"></div>
+        <div class="tablero" id="done"></div>
     </div>
 
     <script src="main.js"></script>
